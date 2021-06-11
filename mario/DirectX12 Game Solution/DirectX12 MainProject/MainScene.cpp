@@ -319,7 +319,7 @@ NextScene MainScene::Update(const float deltaTime)
         //クリボープログラム
 
 //クリボー移動
-        if (kuriboSSR == 0) {
+        /*if (kuriboSSR == 0) {
 
             kuriboX += -4000.0f * deltaTime;
             if (kuriboX <= 30)
@@ -345,10 +345,10 @@ NextScene MainScene::Update(const float deltaTime)
             kuriboY += +4000.0f * deltaTime;
             if (kuriboY >= 565)
                 kuriboSSR = 0;
-        }
+        }*/
 
-        /*if (kuriboX <= -64.0f)
-            kuriboX += 1280.0f;*/
+        if (kuriboX <= -64.0f)
+            kuriboX += 1280.0f;
 
 
 
