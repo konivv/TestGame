@@ -400,8 +400,7 @@ NextScene MainScene::Update(const float deltaTime)
         goalFlag += deltaTime;
     }
 
-    if (playerX >= 1250) 
-        return NextScene::gameover;
+    
 
                                     //スコアプログラム
     
